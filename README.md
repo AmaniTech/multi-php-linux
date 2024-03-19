@@ -46,11 +46,11 @@ $ sudo apt install php8.1-intl
 ## Uninstalling PHP Versions
 
 ```bash
-sudo apt-get remove php5.6
+$ sudo apt-get remove php5.6
 ```
 
 ## uninstall all the modules for that version
 
 ```bash
-sudo apt-get remove php5.6-*
+$ sudo apt-get remove php5.6-*
 ```

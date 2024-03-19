@@ -37,8 +37,20 @@ $ php8.1 -v
 $ php8.1 -m
 ```
 
-## install ektensi tertentu
+## install ekstensi tertentu
 
 ```bash
 $ sudo apt install php8.1-intl
+```
+
+## Uninstalling PHP Versions
+
+```bash
+sudo apt-get remove php5.6
+```
+
+# uninstall all the modules for that version
+
+```bash
+sudo apt-get remove php5.6-*
 ```
